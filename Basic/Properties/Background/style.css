@@ -1,10 +1,18 @@
+/* CSS Background properties are most effective when we want to style our background in our web page. There are many background properties which we will going to explore one by one. */
+/* We can set the default margin and padding of the browser to 0 so there will be no extra padding in our content*/
 *{
     margin: 0;
     padding: 0;
 }
+
 p{
+    /* We can set our background color by the background-color property aleady present in css*/
     background-color: aqua;
+
+    /* Similarly we can set our background image if we want to set any background image by the background-image property. */
     background-image: url('background.jpg');
+
+    /* If we will print the image then it will be repeating multiple times both horizontally and vertically.  */
     /* background-repeat: repeat-x; */
     /* background-repeat: repeat-y; */
     background-repeat: no-repeat;
